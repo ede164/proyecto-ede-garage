@@ -61,6 +61,7 @@
 .botones{
     background-color: black;
 }
+
 .buscador__item{
    margin: none;
    color: white;
@@ -70,8 +71,6 @@
     color: orange;
     background-color: black
 }
-
-
 
 .nav-link {
     color: wheat;
@@ -163,8 +162,4 @@
 .titulo__contacto {
     display: grid;
     grid-row: auto;
-    
-   
-
-
 }
