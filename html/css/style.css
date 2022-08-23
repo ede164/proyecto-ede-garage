@@ -31,15 +31,18 @@
 .item__2 h1 {
     font-size: 2cm;
 }
+
 .item__3 {
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 4;
 }
+
 .item__3 p {
     font-size: 4vh;
 }
+
 .item__4 {
     grid-column-start: 4;
     grid-column-end: 5;
@@ -55,8 +58,7 @@
    align-items: center;
    gap: 30px;
    color: black;
- 
-}
+ }
 
 .botones{
     background-color: black;
