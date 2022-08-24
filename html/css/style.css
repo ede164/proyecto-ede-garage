@@ -30,8 +30,21 @@
 
 .item__2 h1 {
     font-size: 2cm;
+    background: goldenrod;
+    animation-name: animacion;
+    animation-duration: 5s;
+    animation animation-delay: 0s;
+    animation-timing-function: linearGradient;
+    animation-iteration-count: infinite;
 }
 
+@keyframes animacion {
+    0% {background: goldenrod;}
+    25% {background: black;}
+    50% {background: goldenrod;}
+    75% {background: black;}
+    100% {background: goldenrod;}
+}
 .item__3 {
     grid-column-start: 1;
     grid-column-end: 3;
