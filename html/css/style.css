@@ -71,7 +71,8 @@
 
 .buscador__item:hover {
     color: orange;
-    background-color: black
+    background-color: black;
+    cursor: pointer;
 }
 
 .nav-link {
@@ -145,8 +146,6 @@
 
 #mapa {
     display: grid;
-    grid-column: 1fr 1fr 1fr;
-    grid-row: 1fr 1fr 1fr;
 }
 
 .map {
@@ -175,3 +174,11 @@
 footer.footer {
     background: linear-gradient(45deg, goldenrod, black);
 }
+
+.contenido__contacto {
+    margin: 20px;
+    border: 20px;
+    padding: 20px;
+    background: linear-gradient(45deg, goldenrod, black);
+}
+
